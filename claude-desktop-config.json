@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "civic-auth-mcp-server": {
+      "command": "node",
+      "args": ["/workspaces/civic-mcp-server/src/index.js"],
+      "env": {
+        "NODE_ENV": "production"
+      }
+    }
+  }
+}
